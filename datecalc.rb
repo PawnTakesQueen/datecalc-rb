@@ -4,7 +4,7 @@
 
 # A Module to Calculate the Day of the Week of Any Date
 
-# Version 1.0.3.1
+# Version 1.0.3.2
 
 MONTH_OFFSET = [
     [4, 3], [0, 6], [0], [3], [5], [1], [3], [6], [2], [4], [0], [2]
@@ -120,7 +120,7 @@ end
 def add_xxyy(year, cal_type)
     new_year = year % 100
     if cal_type != "CE" and year < 0
-            new_year = (year + 1) % 100
+        new_year = (year + 1) % 100
     end
     return ((new_year / 12) + (new_year % 12) + ((new_year % 12) / 4) % 7)
 end
