@@ -25,7 +25,7 @@
 
 # A Module to Calculate the Day of the Week of Any Date
 
-# Version 1.0.3.4
+# Version 1.0.3.6
 
 MONTH_OFFSET = [
     [4, 3], [0, 6], [0], [3], [5], [1], [3], [6], [2], [4], [0], [2]
@@ -125,12 +125,12 @@ def is_real_date(year, month, date, cal_type)
         end
     end
     if cal_type == "ENGLISH"
-        if month == 9 and date > 2 and date < 15 and year == 1752
+        if month == 9 and date > 2 and date < 14 and year == 1752
             return 8
         end
     end
     if cal_type == "ROMAN"
-        if month == 10 and date > 4 and date < 16 and year == 1582
+        if month == 10 and date > 4 and date < 15 and year == 1582
             return 8
         end
     end
