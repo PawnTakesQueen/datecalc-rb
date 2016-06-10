@@ -1,4 +1,4 @@
-# Copyright (C) 2012-2014, PariahVi
+# Copyright (C) 2012-2014, Vi Grey
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -25,7 +25,7 @@
 
 # A Module to Calculate the Day of the Week of Any Date
 
-# Version 1.0.3.6
+# Version 1.0.3.7
 
 MONTH_OFFSET = [
     [4, 3], [0, 6], [0], [3], [5], [1], [3], [6], [2], [4], [0], [2]
